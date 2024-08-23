@@ -225,3 +225,15 @@ button:hover{
 /* Main3 Ends Here  */
 
 /* Footer Start Here  */
+footer{
+    background-color: #1f2937;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    font-size: 18px;
+    color: #E5e7eb;
+}
