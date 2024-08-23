@@ -66,15 +66,6 @@ header {
   color: #e5e7eb;
 }
 
-.header-main button {
-  background-color: #3882f6;
-  width: 100px;
-  height: 35px;
-  border-radius: 10px;
-  cursor: pointer;
-  color: #e5e7eb;
-}
-
 header img {
   width: 500px;
   border-radius: 10px;
@@ -173,3 +164,64 @@ header img {
 
 /* Main2 Ends Here  */
 
+/* Main3 Start Here  */
+
+.main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    font-size: 18px;
+}
+
+.main3-childs{
+    background-color: #3882f6;
+    border-radius: 10px;
+    min-width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.main3-childs .child1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.child-head{
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.child-body{
+    color: #e5e7eb;
+    font-weight: light;
+    font-size: 15px;
+}
+.main3-childs .child2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{ 
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    color: #f9faf8;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+/* Main3 Ends Here  */
+
+/* Footer Start Here  */
