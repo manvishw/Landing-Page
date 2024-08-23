@@ -149,3 +149,27 @@ header img {
   color: black;
   font-size: 15px;
 }
+
+/* Main1 ends here  */
+
+/* Main2 Start here  */
+.main2{
+    background-color: #E5e7eb;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main2 q{
+    font-size: 35px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+.main2 p{
+    text-align: end;
+}
+
+/* Main2 Ends Here  */
+
