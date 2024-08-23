@@ -66,16 +66,87 @@ header {
   color: #e5e7eb;
 }
 
-.header-main button{
-    background-color: #3882F6;
-    width: 100px;
-    height: 35px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: #e5e7eb;
+.header-main button {
+  background-color: #3882f6;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #e5e7eb;
 }
 
 header img {
   width: 500px;
   border-radius: 10px;
+}
+
+/* Main Styling Starts here */
+main {
+    
+}
+
+/* main1 Styles */
+
+.main1 {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main1-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.main1-cards {
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.main1-cards .card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main1-cards .card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main1-cards .card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main1-cards .card4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main1-cards img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+  
+}
+.main1-cards img:hover{
+    filter: blur(3px);
+    transform: scale(1.1);
+}
+
+.main1-cards p {
+  color: black;
+  font-size: 15px;
 }
